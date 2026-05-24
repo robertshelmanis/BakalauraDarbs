@@ -14,7 +14,7 @@ import matplotlib.dates as mdates
 
 
 # Datu ielāde no EXCEL faila
-excel_file = "/content/drive/MyDrive/miezitis_weekly_demand.xlsx"
+excel_file = "/content/drive/MyDrive/alkoholiskie_dzerieni.xlsx"
 
 df = pd.read_excel(excel_file)
 df["week_start"] = pd.to_datetime(df["week_start"])
